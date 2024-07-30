@@ -49,6 +49,7 @@ class arraystack{
         
         s1.pop();
         s1.pop();
+        System.out.println();
         s1.display();
         System.out.println();
 
