@@ -1,5 +1,5 @@
 import java.util.*;
-class cll{
+class Linkedliststack{
   Node head;
   Node tail;
   class Node{
@@ -14,7 +14,7 @@ class cll{
       
     }
   }
-  cll(){
+  Linkedliststack(){
     head=null;
     tail=null;
   }
@@ -53,7 +53,7 @@ class cll{
   }
     public static void main(String[] args){
     Scanner sc=new Scanner(System.in);
-    cll list=new cll();
+    Linkedliststack list=new Linkedliststack();
     int a=sc.nextInt();
     for(int i=0;i<a;i++){
         int s=sc.nextInt();
